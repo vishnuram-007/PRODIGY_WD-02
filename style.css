@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+nav{
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 50px;
+}
+
+li{
+    display: inline;
+    padding-top: 40px;
+    margin-top: 100px;
+
+}
+
+
+ul{
+    color: grey;
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    margin-left: 30;
+}
+
+li:hover{
+    color: white;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    justify-content: space-around; 
+    padding: 1rem 4rem;
+}
+
+div{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin-top: 30px;
+    width: 220px;
+    /* text-align: center; */
+}
+.box{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation: 1s;
+}
+/* 
+span{
+    padding-left: 400px;
+    
+} */
+
+footer{
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+table{
+    color: white;
+    /* text-align: center; */
+    /* padding-left: 650px; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.sri{
+    background-color: yellow;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.charan{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:850px) {
+    .main{
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+    }
+}
+/* 
+@media only screen and (max-width : 414px){
+    .one{
+        visibility: collapse;
+    }
+
+} */
+
+/* fun tech */
+a{
+    text-decoration: none;
+    color: #777;
+}
+a:hover{
+    color: tomato;
+}
+#virat{
+    padding-top: 1.3rem;
+}
+.btn{
+    padding: 0.3rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+}
+.btn:hover{
+    background-color: rgb(153, 206, 54);
+}
